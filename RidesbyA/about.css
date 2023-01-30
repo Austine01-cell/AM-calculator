@@ -1,0 +1,70 @@
+body{
+  background-color: maroon;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ .nav-bar li{
+  width: 25%;
+  float: left;
+  background-color: black;
+}
+.nav-bar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-bar li a:hover{
+  background-color: darkmagenta;
+}
+header{
+  background-image: url("https://ik.imagekit.io/Jonnes/Kena_Delights/optical-fiber-background__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674634843026");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-size: 80px;
+  font-weight: 900;
+}
+.content-wrap{
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+.about_us{
+  width: 33.33%;
+  height: 300px;
+  padding: 60px auto;
+  float: left;
+  background-color: purple;
+}
+
+footer{
+  font-size: 25px;
+  background-image: url("https://ik.imagekit.io/Jonnes/Kena_Delights/black-frame-with-copy-space-top-view__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674923646797");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer h2{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  font-weight: 400;
+}
+.footer-p{
+  font-size: 20px;
+}
+

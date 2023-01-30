@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.nav-bar{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ .nav-bar li{
+  width: 25%;
+  float: left;
+  background-color: black;
+}
+.nav-bar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-bar li a:hover{
+  background-color: darkmagenta;
+}
+header{
+  height: 400px;
+  background-image: url("https://ik.imagekit.io/Jonnes/Kena_Delights/red-black-brush-stroke-banner-background-perfect-canva__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674031766970");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-size: 70px;
+  font-weight: 900;
+}
+img{
+  opacity: 0.7;
+}
+img:hover{
+  opacity: 1;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.content-wrap{
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+}
+.delights{
+  width: 100%;
+  height: 100%;
+}
+.description .split-half{
+  height: 500px;
+}
+.description .left img{
+  width: 100%;
+  height:100%;
+  opacity: 1;
+}
+.description .right{
+  background-image: url("https://ik.imagekit.io/Jonnes/Kena_Delights/abstract-background-with-grunge-metal-textures__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674048810791");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.description div >p{
+  font-size: 30px;
+  padding: 10px;
+  color: chartreuse;
+}
+.Search-bar{
+  font-size: 20px;
+  display: block;
+  background-color: aliceblue;
+}
+.container{
+  width: 100%;
+  display: flex;
+  height: auto;
+  background-color: gray;
+}
+.container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.split-half{
+  width: 50%;
+}
+.items .split-half:not(.split-half:last-child){
+  margin-right:1%;
+}
+.float{
+  float: left;
+}
+.items{
+  overflow: hidden;
+}
+.item-picture{
+  width:100%;
+  height: 80%;
+}
+.items .split-half{
+  height:350px;
+}
+footer{
+  padding: 60px 0;
+  background-color: chartreuse;
+  animation: background-change 5s linear infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes background-change {
+  from{
+    background-image: url(https://ik.imagekit.io/Jonnes/Kena_Delights/vanilla-powder-two-flaky-cookies-marble-surface__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673987842268);
+
+  }
+  to{
+    background-image: url(https://ik.imagekit.io/Jonnes/Kena_Delights/top-view-delicious-bread-concept-with-copy-space__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673987532143);
+
+  }
+}
+footer h2{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  font-weight: 400;
+}
+@media (max-width:600px){
+  .display-flex{
+    display: inline-block;
+  }
+  .display-flex .split-half{
+    width: 96%;
+    margin-left: 2%;
+    height: auto;
+  }
+}

@@ -1,0 +1,97 @@
+body{
+    background-color: coral;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+   .nav-bar li{
+    width: 25%;
+    float: left;
+    background-color: black;
+  }
+  .nav-bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav-bar li a:hover{
+    background-color: darkmagenta;
+  }
+header{
+   background-image: url("https://ik.imagekit.io/Jonnes/Kena_Delights/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674923146821");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+h1{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: whitesmoke;
+    font-weight: 900;
+}
+header h1{
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+header p{
+    color: white;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.container-form{
+    border-radius: 5px;
+    background-color: rgb(117, 6, 6);
+    padding: 20px;
+}
+.container-form::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    font-size: 20px;
+}
+.orders{
+    background-color: gray;
+}
+footer{
+    color: beige;
+    font-size: 25px;
+    background-image: url("https://ik.imagekit.io/Jonnes/Kena_Delights/black-frame-with-copy-space-top-view__1_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674923646797");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  
+
+
